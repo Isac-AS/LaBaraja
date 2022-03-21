@@ -1,0 +1,13 @@
+body {
+    background-color: #15580F;
+}
+
+.whiteRectangle {
+    position: absolute;
+    width: 97%;
+    height: 97%;
+
+    background: #15580F;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+}

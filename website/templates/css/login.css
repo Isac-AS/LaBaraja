@@ -1,0 +1,27 @@
+body{
+    background-color: #15580F;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+    top: 0; 
+    right: 0;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    max-width: 70%;
+}
+
+#loginBox {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+

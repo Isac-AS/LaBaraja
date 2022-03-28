@@ -5,15 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Login</title>
-        <link rel="icon" href="https://github.com/Isac-AS/LaBaraja/blob/Raul/website/images/LogoPocho.png?raw=true">
 
+        <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans Condensed' rel='stylesheet'>
+        <link rel="icon" href="https://github.com/Isac-AS/LaBaraja/blob/Raul/website/images/LogoPocho.png?raw=true">
         <link rel="stylesheet" href="css\login.css">
     </head>
     <body>
-        <div class="flexContainer">
-            <div id="loginBox">
-                <p> Correo eléctronico / Nombre de usuario </p>
-            </div>
+        <div id="flexContainer">
+            <img src="C:\Users\raulp\Documents\VSCode\LaBaraja\website\images\LogoPocho.png" alt="logo" />
+            <div id="formContainer">
+                <form id="formStyle">
+                    <label class="labelStyle" for="email"> Correo eléctronico o nombre de usuario </label>
+                    <input class="loginBox" id="email" type="email" placeholder="Email" required />
+                    <label class="labelStyle" for="password"> Contraseña </label>
+                    <input class="loginBox" id="password" type="password" placeholder="Contraseña" required />
+                    <input type="submit" id="loginButton" id="send" value="Iniciar sesión">
+                </form>
+
+                <label id="wantToRegister">¿No estás registrado? <a href="sign_up.html" id="register">Regístrate</a></label>
+            </div>  
         </div>
     </body>
 </html>

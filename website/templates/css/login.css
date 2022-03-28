@@ -1,3 +1,8 @@
+*{
+
+    font-family: 'IBM Plex Sans Condensed';
+}
+
 body{
     background-color: #15580F;
     border: 5px solid #FFFFFF;
@@ -9,19 +14,92 @@ body{
     right: 0;
 }
 
-.flexContainer{
+#flexContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 2% auto;
     max-width: 70%;
 }
 
-#loginBox {
+#flexContainer img{
+
+    width: 15%;
+    height: auto;
+}
+
+#formContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    width: 100%;
+    margin-top: 5%;
+    min-width: 70%;
+}
+
+#formContainer #formStyle{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+#formContainer #wantToRegister {
+
+    font-family: 'IBM Plex Sans Condensed';
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 2%;
     text-align: center;
 }
 
+#formContainer #register {
+
+    text-decoration-line: underline;
+    color: #15580F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#formContainer #formStyle .labelStyle{
+
+    font-family: 'IBM Plex Sans Condensed';
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 1%;
+}
+
+#formContainer #formStyle .loginBox {
+    
+    background: #F0F0F0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    min-width: 25%;
+    min-height: 30px;
+    margin-bottom: 3%;
+    font-size: 18px;
+
+}
+
+#formContainer #formStyle #loginButton {
+
+    background: #15580F;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: normal;
+    padding: 0.3em;
+    color: white;
+    margin: 1% auto 0 auto;
+
+}
+
+#formContainer #formStyle #loginButton:hover{
+    cursor: pointer;
+}

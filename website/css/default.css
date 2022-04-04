@@ -1,13 +1,126 @@
 body {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background-color: #15580F;
-}
-
-.whiteRectangle {
-    position: absolute;
-    width: 97%;
-    height: 97%;
-
-    background: #15580F;
     border: 5px solid #FFFFFF;
     box-sizing: border-box;
+}
+
+.appName1{
+    position: absolute;
+    top: -1.5%;
+    left: 1.5%;
+    font-family: 'IBM Plex Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.appName2 {
+    position: absolute;
+    right: 1.5%;
+    bottom: -1.4%;
+    font-family: 'IBM Plex Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    transform: rotate(-180deg);
+}
+
+.logo1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.logo1 img{
+    width: 45%;
+    height: auto;
+}
+
+*{
+
+    font-family: 'IBM Plex Sans Condensed';
+}
+
+#flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6% auto;
+    max-width: 70%;
+}
+
+#flexContainer img{
+
+    width: 15%;
+    height: auto;
+}
+
+#formContainer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 5%;
+    min-width: 70%;
+    padding: 5%;
+}
+
+
+#formContainer label{
+
+    font-family: 'IBM Plex Sans Condensed';
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 1%;
+}
+
+#formContainer .loginBox {
+    
+    background: #F0F0F0;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    min-width: 25%;
+    min-height: 30px;
+    margin-bottom: 3%;
+    font-size: 18px;
+
+}
+
+#formContainer ##loginButton {
+
+    background: #15580F;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: normal;
+    padding: 0.3em;
+    color: white;
+    margin: auto;
+
 }
